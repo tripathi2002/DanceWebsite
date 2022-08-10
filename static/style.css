@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Monoton&family=Nothing+You+Could+Do&display=swap');
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0%;
+}
+
+#logo{
+  display: flex;
+  color: white;
+  align-items: center;
+  margin: 0 14px;
+  font-size: 5px;
+}
+
+#logo img{
+  height: 20px;
+  width: auto;
+}
+
+div .container {
+  display: flex;
+  flex-direction: column;
+}
+
+#navbar {
+  background-color: #d19797;
+  padding: 3px 0px;
+  font-family: 'Monoton', cursive;
+}
+
+#navbar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#navbar ul li {
+  list-style: none;
+  font-size: 14px;
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  padding: 11px 7px;
+}
+
+#introSection {
+  color: white;
+  background: center / cover no-repeat url("/static/dan.jpg");
+  /* opacity: 0.5; */
+  height: 300px;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Caveat', cursive;
+  font-size: 31px;
+}
+
+#introSection #large{
+  font-size: 31px;
+  margin-bottom: 13px;
+}
+#introSection .small{
+  font-size: 20px;
+}
+
+
+ 
+#missionSection{
+  height: 180px;
+  background-color: lightcyan;
+}
+
+#missionSection h2{
+  text-align: center;
+  font-family: 'Nothing You Could Do', cursive;
+  padding-top: 12px;
+}
+
+#missionSection .card{
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 30%;
+  height: auto;
+  margin: 12px 6px;
+  align-items: center;
+  text-align: center;
+}
+
+#missionSection .card .card-box{
+  display: flex;
+}
+
+#missionSection .card .card-img{
+
+}
+
+.card-img img{
+ width: 50px;
+ height: inherit; 
+}
+
+#missionSection .card .card-box .card-content{
+  font-family: 'Caveat', cursive;
+}
+
+
+#sponsersSection {
+  background-color: #f4fbe5d6;
+  height: 153px;
+  text-align: center;
+  align-items:center;
+  font-family: 'Nothing You Could Do', cursive;
+}
+
+#sponsersSection h2{
+
+}
+
+#sponsers{
+  width: 100%;
+}
+
+#sponsers img{
+  width: 76px;
+  /* padding: 10px 18px; */
+  margin: 0px 5%;
+}
+
+
+#footer {
+  background-color: #2622229c;
+  /* height: 10%; */
+  text-align: center;
+}

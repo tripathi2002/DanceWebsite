@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@1&family=Lobster&display=swap');
+body{
+  background-color: blanchedalmond;
+}
+
+.container h2 {
+  font-family: 'Alumni Sans Inline One', cursive;
+  text-align: center;
+  font-size: 25px;
+  margin: 18px 0px;
+}
+
+.myform{
+
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  height: 500px;
+
+}
+
+
+.myinput{
+  outline: none;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  width: 50%;
+  border: 2px solid #d19797;
+  border-radius: 19px;
+  padding: 13px;
+  margin: 9px;
+  /* text-align: center; */
+  font-size: 18px;
+  font-family: 'Lobster', cursive;
+}
+
+.mysubmit{
+  cursor: pointer;
+  font-size: 20px;
+  margin: 15px 0;
+  padding: 3px 3px;
+  border: 2px solid #7a7878;
+  border-radius: 8px;
+  outline: none;
+}
