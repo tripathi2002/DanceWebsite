@@ -3,8 +3,8 @@ const path = require("path");
 const app = express();
 var mongoose = require('mongoose');
 const bodyparser = require("body-parser");
-mongoose.connect('mongodb://localhost:27017/contactDance');
-const port = 100;
+mongoose.connect('mongodb://mongo_db:27017/contactDance');
+const port = 3000;
 
 // , {usernewUrlParser: true})
 /* npm install body-parser */
