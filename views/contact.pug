@@ -8,7 +8,7 @@ block style
 block content 
   div.container 
     h2 Contact Us
-    form(action="/contact" method="post" class='myform') 
+    form(action=APP_URL_PATH+"/contact" method="post" class='myform') 
       input(type="text" name="name" class="myinput" placeholder="Enter Your Name ")
       input(type="phone" name="phone" class="myinput" placeholder="Enter Your Phone number ")
       input(type="email" name="email" class="myinput" placeholder="Enter Your Email ID ")
